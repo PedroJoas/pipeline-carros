@@ -1,0 +1,35 @@
+-------------- Começando a extrair os links --------------
+------ Extraindo links da pagina 1------
+------ Extraindo links da pagina 2------
+------ Extraindo links da pagina 3------
+------ Extraindo links da pagina 4------
+------ Extraindo links da pagina 5------
+------ Extraindo links da pagina 6------
+------ Extraindo links da pagina 7------
+------ Extraindo links da pagina 8------
+------ Extraindo links da pagina 9------
+------ Extraindo links da pagina 10------
+============ Extração de links finalizada ============
+-------------- Começando a extrair as informações --------------
+============ Extração de links finalizada ============
+Arquivo salvo em /Users/pedro/repositories/pipeline-carros/dados/carros_bruto.csv
+-------------- Começando a extrair os links --------------
+------ Extraindo links da pagina 1------
+------ Extraindo links da pagina 2------
+------ Extraindo links da pagina 3------
+------ Extraindo links da pagina 4------
+------ Extraindo links da pagina 5------
+------ Extraindo links da pagina 6------
+------ Extraindo links da pagina 7------
+------ Extraindo links da pagina 8------
+------ Extraindo links da pagina 9------
+------ Extraindo links da pagina 10------
+============ Extração de links finalizada ============
+-------------- Começando a extrair as informações --------------
+============ Extração de links finalizada ============
+Arquivo salvo em /Users/pedro/repositories/pipeline-carros/dados/carros_bruto.csv
+================================================================================
+----------- Começando a transformação dos dados -----------
+Colunas convertidas
+Valores NaN tratados
+Arquivo salvo em /Users/pedro/repositories/pipeline-carros/dados/carros_transformado.csv
