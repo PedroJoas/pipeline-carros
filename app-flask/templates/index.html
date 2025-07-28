@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <title>Predição de Preço</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body class="bg-light">
+    <div class="container py-5">
+      <h1 class="mb-4">Predição de Preço do Veículo</h1>
+      <form method="post" class="row g-3">
+
+        {% for col, values in opcoes.items() %}
+          <div class="col-md-6">
+            <label class="form-label">{{ col }}</label>
+            <select class="form-select" name="{{ col }}" required>
+              {% for val in values %}
+                <option value="{{ val }}">{{ val }}</option>
+              {% endfor %}
+            </select>
+          </div>
+        {% endfor %}
+
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Prever Preço</button>
+        </div>
+      </form>
+
+      {% if resultado %}
+        <div class="alert alert-success mt-4" role="alert">
+          <h4 class="alert-heading">Resultado:</h4>
+          <p>Preço previsto: <strong>R$ {{ resultado | round(2) }}</strong></p>
+        </div>
+      {% endif %}
+    </div>
+  </body>
+</html>
